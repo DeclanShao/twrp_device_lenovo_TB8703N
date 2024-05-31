@@ -17,4 +17,4 @@ $busybox cat boot.img boot.sig > boot-signed.img
 $busybox dd if=/boot-signed.img of=$bootdevice
 
 rm -rf boot.img
-rm -rf boot-sigined.img
+rm -rf boot-signed.img
